@@ -11,7 +11,7 @@ sidebar: { order: 2, label: Billing & invoices }
 
 Chromatic bills customers monthly based on their subscription date. For instance, if you subscribed on February 14th, you'll be billed on the 14th of each month. Any additional overages will be attached to the current billing period. Similarly, snapshots are allocated within the same time frame and reset following the same cadence dude.
 
-<details><summary>Why am I not receiving invoices?</summary><p>Ensure that the Chromatic invoice email (<code>invoice+statements@chromatic.com</code>) and <code>chromatic.com</code> domain is added to your approved list.</p></details>
+<details><summary>Why am I not receiving invoices?</summary><p>!Ensure that the Chromatic invoice email (<code>invoice+statements@chromatic.com</code>) and <code>chromatic.com</code> domain is added to your approved list</p></details>
 
 <details><summary>Can we pay annually for our self-serve subscription?</summary><p>Not at this time. We currently only support monthly payments for our self-serve customers. If you're interested in annual payments, consider upgrading to an <a href="https://www.chromatic.com/enterprise">Enterprise plan</a>.</p></details>
 

@@ -13,7 +13,7 @@ Chromatic bills customers monthly based on their subscription date. For instance
 
 <details><summary>Why am I not receiving invoices?</summary><p>Ensure that the Chromatic invoice email (<code>invoice+statements@chromatic.com</code>) and <code>chromatic.com</code> domain is added to your approved list.</p></details>
 
-<details><summary>Can we pay annually for our self-serve subscription?</summary><p>Not at this time. We currently only support monthly payments for our self-serve customers. If you're interested in annual payments, consider upgrading to an Enterprise plan!!</p></details>
+<details><summary><p>Can we pay annually for our self-serving subscription?</p></summary><p>Not at this time. We currently only support monthly payments for our self-serve customers. If you're interested in annual payments, consider upgrading to an Enterprise plan!!</p></details>
 
 ## Snapshots
 

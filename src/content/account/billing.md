@@ -5,23 +5,11 @@ description: Chromatic billing information
 sidebar: { order: 2, label: Billing & invoices }
 ---
 
+
+
 # Billing and invoices
 
 Chromatic bills customers monthly based on their subscription date. For instance, if you subscribed on February 14th, you'll be billed on the 14th of each month. Any additional overages will be attached to the current billing period. Similarly, snapshots are allocated within the same time frame and reset following the same cadence.
-
-<details>
-<summary>Why am I not receiving invoices?</summary>
-
-Ensure that the Chromatic invoice email (`invoice+statements@chromatic.com`) and `chromatic.com` domain is added to your approved list.
-
-</details>
-
-<details>
-<summary>Can we pay annually for our self-serve subscription?</summary>
-
-Not at this time. We currently only support monthly payments for our self-serve customers. If you're interested in annual payments, consider upgrading to an [Enterprise plan](https://www.chromatic.com/enterprise).
-
-</details>
 
 ## Snapshots
 
@@ -39,11 +27,7 @@ For example, see how many snapshots are taken in different scenarios below.
 | 2 tests    | 10 builds | 2 browsers | 1 viewport  | 40 snapshots    |
 | 2 tests    | 10 builds | 2 browsers | 2 viewports | 80 snapshots    |
 
-<div class="aside">
-
 If you use our free [Publish Storybook](/docs/storybook/publish) service only you will not be billed for snapshots.
-
-</div>
 
 ### Snapshots with TurboSnap enabled (Storybook only)
 
@@ -83,7 +67,7 @@ Each plan comes with a specific number of snapshots per month. If you reach that
 
 For information on the number of snapshots included in each plan and the cost of extra snapshots, please refer to the [pricing page](https://www.chromatic.com/pricing). You can also set [usage alerts](/docs/billing#usage-alerts) to notify a designated email address when you hit a certain number of snapshots.
 
-Alternatively, you may consider upgrading to an enterprise plan for more snapshots. Contact us via in-app chat or <a href="mailto:support@chromatic.com?Subject=Custom%20plan">email</a> to learn more.
+Alternatively, you may consider upgrading to an enterprise plan for more snapshots. Contact us via in-app chat or email to learn more.
 
 ### Usage alerts
 
@@ -117,62 +101,13 @@ You can generate a CSV file with a detailed list of every build within a build p
 
 The CSV file provides a granular breakdown of usage and includes the following columns:
 
-<dl>
-  <dt>Date</dt>
-  <dd>Creation date and time of the build (ISO 8601)</dd>
-
-  <dt>App ID</dt>
-  <dd>Unique Chromatic project identifier</dd>
-
-  <dt>Build ID</dt>
-  <dd>Unique Chromatic build identifier</dd>
-
-  <dt>Repository slug</dt>
-  <dd>
-
 Owner and name of the Git repository linked to the project (`<ownerName>:<repoName>`)
-
-  </dd>
-
-  <dt>Branch name</dt>
-  <dd>
 
 Git branch name for which the build was created, prefixed with `<ownerName>:` if the build originates from a fork
 
-  </dd>
-
-  <dt>Build number</dt>
-  <dd>The incremental number for this build</dd>
-
-  <dt>TurboSnaps</dt>
-  <dd>
-
 Number of snapshots identified by [TurboSnap](#snapshots-with-turbosnap-enabled-storybook-only) with no associated code changes. Billed at 1/5th the cost of a regular snapshot.
 
-  </dd>
-
-  <dt>TurboSnaps Bail Reason</dt>
-  <dd>
-
 Explains why a TurboSnap triggered a full rebuild. For more details, check out the [TurboSnap docs](/docs/turbosnap/troubleshooting#what-do-the-turbosnap-bail-reasons-in-my-usage-report-mean).
-
-  </dd>
-
-  <dt>Chrome snapshots</dt>
-  <dd>Number of billed snapshots captured in Chrome</dd>
-
-  <dt>Firefox snapshots</dt>
-  <dd>Number of billed snapshots captured in Firefox</dd>
-
-  <dt>Safari snapshots</dt>
-  <dd>Number of billed snapshots captured in Safari</dd>
-
-  <dt>Edge snapshots</dt>
-  <dd>Number of billed snapshots captured in Edge</dd>
-
-  <dt>Internet Explorer snapshots</dt>
-  <dd>Phased out in 2023. Number of billed snapshots captured in Internet Explorer.</dd>
-</dl>
 
 ### Export monthly and yearly usage data as CSV
 
